@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Books</title>
   </head>
   <body>
     <header>
       <nav>
         <img src="images/photo_2022-08-20_12-40-50.jpg" alt="logo" />
+
         <ul>
           <li><a href="index3.html">Shopping Cart</a></li>
           <li><a href="index2.html">Books</a></li>
@@ -20,81 +21,81 @@
       <hr />
     </header>
 
-    <section>
-      <h1>My Account</h1>
-    </section>
-
     <main>
-      <div>
-        <img src="images/g-1.jpg" alt="your profile picture" />
-        <br />
-        <label for="choose file">Upload Profile picture </label>
+      <h1>My Account</h1>
+
+      <from>
+        <div>
+          <img src="images/g-1.jpg" alt="your profile picture" />
+
+          <br />
+
+          <label for="choose file">Upload Profile picture </label>
+
+          <br />
+          <input type="file" name="choose file" id="choose" />
+        </div>
 
         <br />
-        <input type="file" name="choose file" id="choose" />
-      </div>
+
+        <div>
+          <label for="name">Name:</label>
+          <br />
+          <input type="text" id="name" placeholder="Alireza Ghanbari" />
+        </div>
+        <br />
+
+        <div>
+          <label for="email">Email Address:</label>
+          <br />
+          <input type="email" id="email" placeholder="Alirezagh@gmail.com" />
+        </div>
+        <br />
+
+        <div>
+          <label for="phone">Phone Number:</label>
+          <br />
+          <input type="number" id="phone" placeholder="0912*******" />
+        </div>
+
+        <br />
+
+        <fieldset>
+          <legend>Adding Addresses</legend>
+
+          <label for="address1">Address1</label>
+
+          <br />
+
+          <input
+            type="text"
+            id="address1"
+            placeholder="Tehran,Gisha,Shekoofe Building,Apartment 20"
+            size="60"
+          />
+
+          <br />
+
+          <label for="address2">Address2</label>
+
+          <br />
+
+          <input
+            type="text"
+            id="address2"
+            placeholder="Bushehr,SolhAbaad,10th Avenue,Apartment 5"
+            size="60"
+          />
+
+          <br />
+
+          <button>Add more</button>
+        </fieldset>
+      </from>
 
       <br />
 
-      <div>
-        <label for="name">Name:</label>
-        <br />
-        <input type="text" id="name" placeholder="Alireza Ghanbari" />
-      </div>
-
-      <br />
-
-      <div>
-        <label for="email">Email Address:</label>
-        <br />
-        <input type="email" id="email" placeholder="Alirezagh@gmail.com" />
-      </div>
-
-      <br />
-
-      <div>
-        <label for="phone">Phone Number:</label>
-        <br />
-        <input type="number" id="phone" placeholder="0912*******" />
-      </div>
-
-      <br />
-
-      <fieldset>
-        <legend>Adding Addresses</legend>
-
-        <label for="address1">Address1</label>
-
-        <br />
-
-        <input
-          type="text"
-          id="address1"
-          placeholder="Tehran,Gisha,Shekoofe Building,Apartment 20"
-          size="60"
-        />
-
-        <br />
-
-        <label for="address2">Address2</label>
-
-        <br />
-
-        <input
-          type="text"
-          id="address2"
-          placeholder="Bushehr,SolhAbaad,10th Avenue,Apartment 5"
-          size="60"
-        />
-
-        <br />
-
-        <button>Add more</button>
-      </fieldset>
-
-      <br />
-
-      <button>update</button>
+      <button type="submit">update</button>
 
       <br />
 
@@ -135,9 +136,9 @@
 
     <footer>
       <ul>
-        <li>Contact us</li>
-        <li>About us</li>
-        <li>Location</li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Location</a></li>
       </ul>
     </footer>
   </body>
