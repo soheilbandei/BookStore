@@ -8,19 +8,19 @@
 Shop for new, used, and rare books online and in-person at IranBooks, the world's largest independent bookstore, based in Iran, Tehran.
 
 ## Getting Started
-1.Clone the repo: 
+##### 1.Clone the repo: 
 ```
 git clone https://github.com/soheilbandei/BookStore.git
 ```
-2.go to direcotory BookStore
+##### 2.go to direcotory BookStore
 ```
 cd BookStore
 ```
-3.start live server
+##### 3.start live server
 ```
 python3 -m http.server 2121
 ```
-4.copy link to browser
+##### 4.copy link to browser
 ```
 http://127.0.0.1:2121/index.html
 ```
